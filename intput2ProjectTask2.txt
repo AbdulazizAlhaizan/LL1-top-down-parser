@@ -1,0 +1,37 @@
+String: abba
+grammer:
+S->aba
+B->bB
+B->j
+first(S) = {a}
+first(B) = {b}
+follow(S) = {$}
+follow(B) = {a}
+
+
+
+
+2
+S
+y
+1
+aBa
+a
+1
+$
+B
+2
+j
+j
+bB
+b
+1
+a
+2
+a
+b
+a
+b
+b
+a
+#
