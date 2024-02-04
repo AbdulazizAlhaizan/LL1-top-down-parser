@@ -119,55 +119,7 @@ public class PredictiveParserLL1 {
         }
         System.out.println("---------------------------");
     }
-    /* 
-        // String table[][] = new String[numberNonterminals+1][numberTerminals+1];
-        //     for (int j = 1; j <= numberTerminals; j++) {
-        //         table[0][j] = terminalsArr.get(j - 1);
-        //     }
-        //     int i = 1 ;
-            
-        //     for (String nonT : nonTArr) {
-        //         int j = 0;
-        //         // HashSet<String> crr = first.get(nonT);
-        //         table[i][j] = nonT;
-        //         // if (crr.contains("j")) {
-        //         //     crr.remove("j");
-        //         //     for (String string : follow.get(nonT)) {
-        //         //         table[i][j] = "j";
-        //         //         j++;
-        //         //     }
-        //         //     continue;
-        //         // }
-        //         for (String terminal : terminalsArr) {
-        //         j++;
-        //         String elm = first.get(nonT)
-        //         HashSet<String> crr = first.get(nonT);
-        //         if (crr.contains(terminal) && !nonT.equals("j")) {
-                    
-        //             for (String production : productions.get(nonT)) {
-        //                 if (production.contains(terminal)) {
-        //                     table[i][j] = production;
-        //                 }
-        //             }
-                    
-        //         }
-                
-        //     }
-        //     i++;
-        // }
-
-        // for (int j = 1; j <= numberNonterminals; j++) {
-        //     for (int j2 = 1; j2 <= numberTerminals; j2++) {
-        //         if (table[j][j2] != null) {
-        //             System.out.print("[" + table[j][0] + ", " + table[0][j2] + "] = " + table[j][j2] + ",\t" );
-        //         }
-                
-                
-        //     }
-        //     System.out.println();
-        // }
-
-    // }*/
+    
     public void parsingLL1(Stack<String> input){
         // input =  input.append("$") ;
         input.push("$");
