@@ -142,7 +142,6 @@ public class PredictiveParserLL1 {
             String cross = peek + ", " + inputChar ;
             ArrayList<String> nonTProductions = productions.get(peek);
             String rhs = table.get(cross);
-            // System.out.println(cross);
             printStack(stack);
             printInputStack(inputStack);
             
