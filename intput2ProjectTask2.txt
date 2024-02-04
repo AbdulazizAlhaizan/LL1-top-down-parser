@@ -10,7 +10,7 @@ follow(B) = {a}
 
 
 
-
+input:
 2
 S
 y
